@@ -2,20 +2,21 @@
 
 int max (float a, float b) 
 { 
-	int x; 
-	if (a > b) { 
-		x = a; 
-		} else { 
-		x = b; 
+    int x; 
+
+    if (a > b) { 
+    x = a; 
+    } else { 
+    x = b; 
 } 
-	return x; 
+    return x; 
 } 
 
-	int main () 
+    int main () 
 { 
-	int a = 5, b = 4, y; 
-	y = max(a, b); 
-	printf("%d", y); 
+    int a = 5, b = 4, y; 
+    y = max(a, b); 
+    printf("%d", y); 
 
-return 0; 
+    return 0; 
 }
