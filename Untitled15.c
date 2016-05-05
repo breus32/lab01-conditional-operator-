@@ -4,14 +4,15 @@ int max (float a, float b)
 
 {
 
-if (a > b) {
+    if (a > b) {
 
-	return a;
+    return a;
 
-	} else {
+    } else {
 	
-	return b;
-	}
+    return b;
+    
+    }
 
 }
 
@@ -19,14 +20,12 @@ int main ()
 
 {
 
-int a = 2, b = 1, y;
+    int a = 2, b = 1, y;
 
-y = max(a, b);
+    y = max(a, b);
 
-printf("%d", y);
+    printf("%d", y);
 
-
-
-return 0; 
+    return 0; 
 
 }
