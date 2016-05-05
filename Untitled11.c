@@ -2,17 +2,17 @@
 
 int main()
 {
- float x, y;
- int n;
+    float x, y;
+    int n;
  
- printf ("Vvedite x=");
- scanf ("%lf", &x);
+    printf ("Vvedite x=");
+    scanf ("%lf", &x);
  
- printf ("Vvedite n=");
- scanf ("%lf", &n);
+    printf ("Vvedite n=");
+    scanf ("%lf", &n);
  
- y = x * x + 3 * n;
-  printf("\ny=%lf", x,y);
+    y = x * x + 3 * n;
+    printf("\ny=%lf", x,y);
     
 return 0;
 }
