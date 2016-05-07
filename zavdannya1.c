@@ -1,7 +1,6 @@
 #include <stdio.h>
 
 int max (float a, float b, float c)
-
 {
 
    if ((a > b) && (a > c)) {
@@ -34,6 +33,5 @@ int main ()
 
     printf("%d", y);
 	
-	
-	return 0;
+    return 0;
 }
