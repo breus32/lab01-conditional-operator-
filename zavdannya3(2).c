@@ -5,7 +5,7 @@ int main()
 {
     int s, f;
     
-    printf("Vvedite s:");
+    printf("Vvedite s: ");
     scanf ("%d", &s);
     
     if ((s > 0) && (s < 1)){
