@@ -1,29 +1,30 @@
 #include <stdio.h>
 
-int main() {
+int main() 
+{
 	
-	int a;
+    int mouth;
 	
-	printf("Nomer mesyatsa");
-	scanf("%d", &a);
-	if ((a <= 2) && (a >= 1)) {
-		printf("\nZima");
+	printf("Enter the number of the month: ");
+	scanf("%d", &mouth);
+	
+	if ((mouth <= 2) && (mouth >= 1)) {
+		printf("\nWinter.");
 	} else {
-		if (a == 12) {
-			printf("\nZima.");
+		if (mouth == 12) {
+			printf("\nWinter");
 		} else {
-			if ((a >= 3) && (a <= 5)) {
-				printf("\nVesna.");
+			if ((mouth >= 3) && (mouth <= 5)) {
+				printf("\nSpring.");
 			} else {
-				if ((a >= 6) && (a <= 8)) {
-					printf("\nLeto.");
+				if ((mouth >= 6) && (mouth <= 8)) {
+					printf("\nSummer.");
 				} else {
-					if ((a >= 9) && (a <= 11)) {
-						printf("\nOsen.");
+					if ((mouth >= 9) && (mouth <= 11)) {
+						printf("\nAutumn.");
 					} else {
-						if (a > 12) {
-							printf ("\nOwibka.");
-						}
+					    printf ("\nError!");
+						
 					}
 				}
 			}
