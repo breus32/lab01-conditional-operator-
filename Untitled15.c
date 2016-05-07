@@ -20,11 +20,17 @@ int main ()
 
 {
 
-    int a = 2, b = 1, y;
-
+    int a, b, y;
+    
+    printf ("Vvedite a: ");
+    scanf ("%d", &a);
+    
+    printf ("\nVvedite b: ");
+    scanf ("%d", &b);
+   
     y = max(a, b);
 
-    printf("%d", y);
+    printf("Max: %d", y);
 
     return 0; 
 
