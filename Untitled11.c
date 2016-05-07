@@ -5,10 +5,10 @@ int main()
     float x, y;
     int n;
  
-    printf ("Vvedite x=");
+    printf ("Vvedite x= ");
     scanf ("%lf", &x);
  
-    printf ("Vvedite n=");
+    printf ("Vvedite n= ");
     scanf ("%lf", &n);
  
     y = x * x + 3 * n;
