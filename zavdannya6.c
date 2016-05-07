@@ -3,7 +3,7 @@
 int main() 
 {
 	
-    int mouth;
+    	int mouth;
 	
 	printf("Enter the number of the month: ");
 	scanf("%d", &mouth);
