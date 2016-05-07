@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <math.h>
 
 int main()
 {
@@ -12,7 +13,7 @@ int main()
     	printf ("f(s)= %d", f);
     } else {
     	if (s > 1){
-    	    f = s * s * s;
+    	    f = pow (s, 3);
     	    printf ("f(s)= %d", f);
     	} else {
     	    if (s <= 0) {
