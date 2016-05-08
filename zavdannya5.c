@@ -5,7 +5,7 @@ int main()
 
 	int age, remainder;
 	
-	printf ("Enter age: ");
+	printf ("Enter age:");
 	scanf ("%d", &age);
 	
 	remainder = age%10;
