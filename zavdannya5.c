@@ -17,8 +17,8 @@ int main()
 			printf ("Vam %d goda", age);
 		} else {
 		printf ("Vam %d let", age);
-	} 
+		} 
 	
-}
+	}
 	return 0;
 }
