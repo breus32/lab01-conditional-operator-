@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void leapyear (int b, int c, int d, int a){
+int leapyear (int b, int c, int d, int a){
 	
 	b = a%4;
 	c = a%100;
@@ -10,7 +10,6 @@ void leapyear (int b, int c, int d, int a){
 		return 0;
 	} else {
 		if (b == 0) {
-			printf ("\n1");
 			return 1;
 		} else {
 			return 0;
@@ -25,7 +24,11 @@ int main ()
 	printf("Vvedite god: ");
 	scanf("%d", &a);
 
-	
-	leapyear(b, c, d, a);	
+	if (leapyear(b, c, d, a)){
+		printf("Leap year");
+	    } else {
+	        printf("Usual year");
+	}
+		
 	return 0;
 }
