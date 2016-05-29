@@ -19,7 +19,7 @@ int main()
 	
 	diskriminant = pow(b, 2) - 4 * a * c; 
 
-	if (a == 0){
+	if ((a == 0) && (b != 0)){
 		x = - (c / b);
 		printf ("%f", x);
 	} else {
